@@ -7,5 +7,7 @@ import com.pluralsight.model.Ride;
 public interface RideService {
 
 	List<Ride> getRides();
+	
+	Ride createRide(Ride ride);
 
 }
